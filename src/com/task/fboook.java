@@ -14,7 +14,9 @@ public class fboook {
   @BeforeTest
   public void beforeTest(String browser) {
 	  if(browser.equalsIgnoreCase("chrome"))
-	  {   System.out.println("ssdfsfdsfdsfs");
+		  
+	  {   System.out.println("Browser Opennott Successfully")
+		  System.out.println("ssdfsfdsfdsfs");
 		  System.out.println("In the open brwoser");
 		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\mahendra\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		  driver= new ChromeDriver();
